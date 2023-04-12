@@ -1,0 +1,59 @@
+h1{
+    color: white;
+}
+.parent{
+    width:100%;
+    display: flex;
+}
+img{
+     width: auto;
+}
+.son{
+    background-color: rgb(3, 72, 3);
+    width: 50%;
+    color: white;
+    padding: 28px;
+    padding-left: 68px;
+    
+
+}
+.daughter{
+    width: 50%;
+    display: flex;
+    float: right;
+}
+
+p{
+    padding: 0px;
+}
+button{
+    color: black;
+    background-color: rgb(255, 255, 68);
+    border-radius: 16px;
+    height: 34px;
+    width: 160px;
+    margin-top: 18px;
+    margin-bottom: 14px;
+    
+}
+@media (min-width:320px)and (max-width:480px){
+    h1{
+        background-color:green;
+        width: 100%;
+    }
+    .daughter img{
+        
+
+    }
+
+}
+
+@media (min-width:481px)and (max-width:768px){
+
+}
+
+@media (min-width:760px)and (max-width:1024px){
+
+}
+
+    
